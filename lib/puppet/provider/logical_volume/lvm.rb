@@ -16,6 +16,8 @@ Puppet::Type.type(:logical_volume).provide :lvm do
             args.push('--size', @resource[:size])
         elsif @resource[:initial_size]
             args.push('--size', @resource[:initial_size])
+        elsif @resource[:extents]
+            args.push('--extents', @resource[:extents])
 	else
 	    args.push('--extents 100%FREE')
         end

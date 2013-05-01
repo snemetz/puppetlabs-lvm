@@ -1,5 +1,6 @@
 Puppet LVM Module
 =================
+[![Build Status](https://secure.travis-ci.org/snemetz/puppetlabs-lvm.png)](http://travis-ci.org/snemetz/puppetlabs-lvm)
 
 Provides Logical Resource Management (LVM) features for Puppet.
 
